@@ -1,0 +1,83 @@
+{
+    "type": "APL",
+    "version": "1.0",
+    "theme": "dark",
+    "import":[],
+    "resources": [
+        {
+            "description": "Colors",
+            "colors": {
+                "myBlue": "#5ADDE4",
+                "myOrange": "#EF9260"
+            }
+        },
+        {
+            "description": "Images",
+            "strings": {
+                "web2day": "https://web2day.co/wp-content/themes/themeWeb2day/img/socialnetworks/web2day.png"
+            }
+        }
+    ],
+    "styles": {},
+    "layouts": {},
+    "mainTemplate": {
+        "parameters": [
+            "payload"
+        ],
+        "items": [
+            {
+                "type": "Container",
+                "width": "100vw",
+                "height": "100vh",
+                "items": [
+                    {
+                        "type": "Container",
+                        "alignItems": "center",
+                        "width": "100vw",
+                        "height": "80vh",
+                        "items": [
+                            {
+                                "type": "Image",
+                                "source": "@web2day",
+                                "scale": "best-fill",
+                                "width": "100vw",
+                                "height": "100vh",
+                                "position": "absolute"
+                            },
+                            {
+                                "type": "Text",
+                                "text": "<i>Bienvenue</i>",
+                                "fontWeight": "900",
+                                "fontSize": "10vh",
+                                "position": "absolute",
+                                "top": "5vh"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Container",
+                        "alignItems": "center",
+                        "width": "100vw",
+                        "height": "20vh",
+                        "items": [
+                            {
+                                "type": "Frame",
+                                "width": "100vw",
+                                "height": "100vh",
+                                "backgroundColor": "@myBlue"
+                            },
+                            {
+                                "type": "Text",
+                                "text": "Atelier <i>Alexa</i>",
+                                "fontWeight": "300",
+                                "fontSize": "10vh",
+                                "position": "absolute",
+                                "bottom": "7vh"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
