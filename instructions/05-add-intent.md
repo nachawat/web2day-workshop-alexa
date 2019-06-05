@@ -8,7 +8,7 @@
 
 On souhaite connaître le prénom de l'utilisateur afin de pouvoir le saluer plus personnellement. Au lancement de la Skill, nous allons rajouter une questions à notre prompt d'accueil pour demander le prénom de l'utilisateur. Pour capturer cette réponse, nous allons ajouter une intention dans notre modèle d'interaction. Cette intention, à la différence de HelloWorldIntent, contient une variable, aussi appelée “entité” ou “slot”. Comme toute variable, elle a un nom (name) et un type AMAZON.FirstName. Une fois cette intention définie, nous allons ajouter un `Handler` pour traiter les requêtes envoyées par le service Alexa sur cette intention dans notre code.
 
-> **Note : ** Alexa propose aussi une API ([Customer Profile API](https://developer.amazon.com/docs/custom-skills/request-customer-contact-information-for-use-in-your-skill.html)) pour qu'une Skill puisse accéder aux informations de contact (nom, prénom, téléphone, mail) d'un utilisateur si et seulement si l'utilisateur le consent.
+> **Note :** Alexa propose aussi une API ([Customer Profile API](https://developer.amazon.com/docs/custom-skills/request-customer-contact-information-for-use-in-your-skill.html)) pour qu'une Skill puisse accéder aux informations de contact (nom, prénom, téléphone, mail) d'un utilisateur si et seulement si l'utilisateur le consent.
 
 ## Etapes
 
