@@ -3,6 +3,8 @@
 
 C'est un tutoriel pas à pas pour montrer les fonctionnalités de bases de l'Alexa Skill Kit (ASK) tout en utilisant le ASK SDKv2 Node.js
 
+#### Démarrez ce tutorial ==> [START](./instructions/01-frontend.md)
+
 ## Définition
 
 Chaque Skill est consistée de deux parties :
