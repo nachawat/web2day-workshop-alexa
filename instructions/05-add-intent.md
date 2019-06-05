@@ -130,8 +130,4 @@ exports.handler = Alexa.SkillBuilders.custom()
 
 12. Allez à l'onglet `Test` pour tester cette nouvelle intention en invoquant votre Skill `ouvre web to day` puis en vous laissant guider dans ce que demande la Skill.
 
-![deploy_backend](./images/deploy_backend.png)
-
-> **Important**: Dès que vous faites une modification que vous souhaitez tester, n'oubliez jamais de déployer votre code. 
-
 ## Suivant : [Ajouter la persistence](./06-add-persistence.md)
