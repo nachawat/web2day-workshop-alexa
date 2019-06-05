@@ -73,7 +73,7 @@ Cela fera apparaitre un editeur JSON dans la partie inférieur de l'éditeur ave
 
 * La propriété `mainTemplate` est la mise en page principale du document APL qui comprendra les composants de base (container, frame, text, image, ...) ainsi que les layouts / styles / resources et import utilisés.
 
-4. Copier-coller dans la partie JSON de l'éditeur de template APL, le document disponible **[ici](https://raw.githubusercontent.com/nachawat/web2day-workshop-alexa/master/skill-artefacts/launchrequest.json)**
+4. Copier-coller dans la partie JSON de l'éditeur de template APL, le document suivant disponible ici : https://raw.githubusercontent.com/nachawat/web2day-workshop-alexa/master/skill-artefacts/launchrequest.json
 
 En inspectant la partie `mainTemplate` du JSON vous verez que le template est constitué d'un `container` principal contenant deux  éléments: un autre `container` contenant une image et un texte et une `frame` contenant un texte. Une `frame ` ne peut contenir qu'un seul élément alors qu'un `container` peut en contenir plusieurs.
 
